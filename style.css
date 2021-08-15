@@ -1,58 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans&display=swap');
- *{ padding: 0;
-   margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
-  font-family: "Inter","Open Sans";
+  font-family: "Inter", "Open Sans";
 }
-.nav_menu{
-height: 68px;
-display: flex;
-border-bottom: 2px solid rgb(0, 0, 0);
-background: #232323;
+.nav_menu {
+  height: 68px;
+  display: flex;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background: #232323;
 }
-.btn_bl{
-padding: 8px;
-display: flex;
+.btn_bl {
+  padding: 8px;
+  display: flex;
+
 }
 .btn_link {
-    padding: 14px;
-    border-radius: 10px;
-    margin-top: 5px;
-    transition: .2s;
-    cursor: pointer;
-    margin: 0px 2px;
-    background: #333333;
-  }
-  .btn_link:hover{
-    background: #121212;
-  }
-  a{
-    color: rgb(255, 255, 255);
-  
-  }
-  .frame{
-    justify-content: center;
-    background: var(--background);
-    display: grid;
-  }
-  .container{
-    width: 1090px;
-    background: rgb(26, 26, 26);
-    padding: 20px;
-  }
-  h2{
-      color: white;
-  }
-  p{
-      color: white;
-  }
-  li{
-      color: white;
-      margin-left: 20px;
-  }
-  img{
-      border-radius: 10px;
-      width: 350px;
-      margin-left: 10px;
-      margin-top: 10px;
-  }
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin: 0px 2px;
+  background: #333333;
+}
+.btn_link:hover {
+  background: #121212;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+.frame {
+  justify-content: center;
+  background: var(--background);
+  display: grid;
+}
+.container {
+  width: 1090px;
+  background: rgb(26, 26, 26);
+  padding: 20px;
+  border-end-end-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
+li {
+  color: white;
+  margin-left: 20px;
+}
+.img {
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.img.active {
+  margin: auto;
+  width: 80%;
+}
+
+.background.active {
+  opacity: 1;
+  visibility: visible;
+}
+.imgs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.img > img{
+  width: 350px;
+  border-radius: 10px;
+}
+iframe{
+  width: 350px;
+   height:190px;
+   border-radius: 10px;
+   margin-left: 10px;
+}
+.all{
+  margin-top: 15px;
+  justify-content: center;
+  display: flex;
+  width: 1000px;
+}
